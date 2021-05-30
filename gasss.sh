@@ -6,7 +6,7 @@
 read -p "Press Enter For Contitune : GASSS ENTER "
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/maintebot/maintebot/main/gasss-bedu.py
+wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/izinrecode/x/main/gasss-bedu.py
 chmod +x /usr/local/bin/edu-proxy
 
 # Installing Service
