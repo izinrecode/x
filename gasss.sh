@@ -6,7 +6,7 @@
 read -p "Press Enter For Contitune : ENTER untuk melanjutkan installasi SSH EDUKASI!"
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/izinrecode/x/main/anjas.py
+wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/izinrecode/x/main/anjas.py?token=AT4GLZDMYMTOOEQFNV4RUP3AWSLPI
 chmod +x /usr/local/bin/edu-proxy
 
 # Installing Service
