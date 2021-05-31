@@ -3,7 +3,7 @@
 # ==============================
 
 # Banner / Figlet
-read -p "Press Enter For Contitune : GASSS ENTER "
+read -p "Press Enter For Contitune : ENTER untuk melanjutkan installasi SSH EDUKASI!"
 
 # Getting Proxy Template
 wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/izinrecode/x/main/gasss-bedu.py
@@ -12,10 +12,10 @@ chmod +x /usr/local/bin/edu-proxy
 # Installing Service
 cat > /etc/systemd/system/edu-proxy-nontls.service << END 
 [Unit]
-Description=Python Proxy NGE-GASSS
-Documentation=https://t.me/nge_gasss
+Description=Python Proxy JOMBLOSSH
+Documentation=https://t.me/JSTFREENET
 Documentation=https://t.me/nge_gazzz
-Documentation=https://t.me/maintebot
+Documentation=https://t.me/JSTxNGE_GAZZZ
 After=network.target nss-lookup.target
 
 [Service]
@@ -38,10 +38,10 @@ systemctl restart edu-proxy-nontls
 # Installing Service
 cat > /etc/systemd/system/edu-proxy-tls.service << END 
 [Unit]
-Description=Python Proxy NGE-GASSS
-Documentation=https://t.me/nge_gasss
+Description=Python Proxy JOMBLOSSH
+Documentation=https://t.me/JSTFREENET
 Documentation=https://t.me/nge_gazzz
-Documentation=https://t.me/maintebot
+Documentation=https://t.me/JSTxNge_Gazzz
 After=network.target nss-lookup.target
 
 [Service]
