@@ -12,7 +12,7 @@ PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 60
 DEFAULT_HOST = '127.0.0.1:143'
-RESPONSE = 'HTTP/1.1 101 <font color="red">DIRECT JOMBLOSSH</font>\r\n\r\nContent-Length: 104857600000\r\n\r\n'
+RESPONSE = 'HTTP/1.1 101 <font color='#FF0059'>S</font><font color='#FEA600'>E</font><font color='#47FF00'>M</font><font color='#00FFDD'>O</font><font color='#0024FF'>G</<font color='#FF0059'>A</font> </u> </i></b> <b> <b><i> <u> <font color='#FF0059'>B</font><font color='#FEA600'>E</font><font color='#47FF00'>R</font><font color='#00FFDD'>M</font><font color='#0024FF'>A</<font color='#FF0059'>N</font><font color='#FF0059'>F</font><font color='#FF0059'>A</font><font color='#FF0059'>A</font><font color='#FF0059'>T</font><font color="red">DIRECT JOMBLOSSH</font>\r\n\r\nContent-Length: 104857600000\r\n\r\n'
 
 class Server(threading.Thread):
     def __init__(self, host, port):
