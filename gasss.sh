@@ -1,5 +1,4 @@
 #!/bin/bash
-# GASSS SSH WEBSOCKET
 # ==============================
 
 # Banner / Figlet
