@@ -1,5 +1,5 @@
 #!/bin/bash
-cleae
+clear
 echo Installing Websocket-SSH AUTOSCRIPT BY JOMBLOSSH
 sleep 1
 echo Cek Hak Akses...
