@@ -97,7 +97,7 @@ function kataakhir(){
       },}).go();
 }
 function muncultombol2(){fungtom2=1;TombolWA.style="opacity:1;transform:scale(1)";}
-function menuju(){if(fungtom2==1){window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}}
+function menuju(){if(fungtom2==1){window.location = "https://api.whatsapp.com/send?6281334361732=&text=" + pesanwhatsapp;}}
 
 tinggi = iniakhir.offsetHeight;
 function tentukantinggi(){tinggi = iniakhir.offsetHeight;}
